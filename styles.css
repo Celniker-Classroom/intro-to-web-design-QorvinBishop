@@ -1,1 +1,26 @@
-
+h1{
+    width: 800 px;
+    text-align: center;
+    border: 7px double white;
+    padding: 1%;
+}
+h2{
+    text-align: center;
+    background-color:brown;
+    border: 5px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+p{
+    padding: 300 px;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  margin: 30px;
+}
+a:link {
+  color: rgb(134, 207, 255);
+}
