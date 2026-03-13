@@ -1,5 +1,4 @@
 h1{
-    width: 800 px;
     text-align: center;
     border: 7px double white;
     padding: 1%;
@@ -12,7 +11,6 @@ h2{
     border-radius: 5px;
 }
 p{
-    padding: 300 px;
     text-align: left;
     width: 50%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,13 +22,43 @@ body {
 }
 a:link {
   color: rgb(134, 207, 255);
+  font-weight: bold;
+  text-decoration-line: none;
+
 }
-#black_hole {
+a:visited{
+  color: rgb(202, 39, 102);
+}
+a:hover{
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+}
+
+a:active{
+  color: rgb(60, 160, 228);
+  
+}
+.images img{
   float: right;
   margin-left: 10px; 
-  width: 50%;
+  max-width: 50%;
 }
-/*#intro{
-  margin: 5px;
+#container{
+  max-width: 1200px;
+  min-width: 300px;
+  margin: auto;
 }
-*/
+.content{
+  min-height: 300px;
+  min-width: 400px;
+  max-width: 1200px;
+  overflow: auto;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+#music{
+  margin: 2%
+}
+#other{
+  margin: 2%
+}
