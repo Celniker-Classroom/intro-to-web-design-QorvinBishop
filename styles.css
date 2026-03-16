@@ -13,12 +13,17 @@ h2{
 p{
     text-align: left;
     width: 50%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.3;
 }
 body {
   background-color: black;
   color: rgb(255, 255, 255);
-  margin: 30px;
+  padding: 30px;
+  width: 100%;
+}
+.italic{
+  font-style: italic;
 }
 a:link {
   color: rgb(134, 207, 255);
@@ -36,12 +41,15 @@ a:hover{
 
 a:active{
   color: rgb(60, 160, 228);
-  
 }
 .images img{
   float: right;
   margin-left: 10px; 
   max-width: 50%;
+}
+#hilary_hahn{
+  outline: 4px solid white;
+  outline-offset: -4px;
 }
 #container{
   max-width: 1200px;
@@ -50,15 +58,23 @@ a:active{
 }
 .content{
   min-height: 300px;
-  min-width: 400px;
   max-width: 1200px;
   overflow: auto;
   padding: 1rem;
   margin-bottom: 2rem;
 }
-#music{
-  margin: 2%
+@media (max-width: 1200px) {
+  #container{
+  max-width: 1000px;
 }
-#other{
-  margin: 2%
+}
+@media (max-width: 992px) {
+  #container{
+  max-width: 900px;
+}
+}
+@media (max-width: 768px) {
+  #container{
+  max-width: 95%;
+}
 }
