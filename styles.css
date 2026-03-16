@@ -20,7 +20,7 @@ body {
   background-color: black;
   color: rgb(255, 255, 255);
   padding: 30px;
-  width: 100%;
+  max-width: 100%;
 }
 .italic{
   font-style: italic;
@@ -38,7 +38,6 @@ a:hover{
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
 }
-
 a:active{
   color: rgb(60, 160, 228);
 }
